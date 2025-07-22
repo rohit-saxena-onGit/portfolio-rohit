@@ -31,7 +31,7 @@ function Popup({ setShowmodel }) {
             </Link>
             <Link
               onClick={() => setShowmodel(false)}
-              to={"/projects"}
+              to={"/project"}
               className="hover:text-white px-3 py-1 mt-1 rounded-md hover:bg-light-black transition-all"
               >
               Projects
