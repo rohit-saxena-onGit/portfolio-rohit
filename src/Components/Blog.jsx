@@ -29,7 +29,7 @@ export const Blog = () => {
           topics into simple, insightful reads.
         </p>
       </div>
-      <div className="flex flex-wrap justify-between">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         {blogData.map((blog, index) => (
           <BlogCards
             key={index}

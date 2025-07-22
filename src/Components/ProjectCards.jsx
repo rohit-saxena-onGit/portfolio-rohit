@@ -2,7 +2,7 @@ import React from "react";
 
 export const ProjectCards = (props) => {
   return (
-    <div className="h-auto w-full bg-gray-900 p-5 rounded-lg md:w-90 lg:w-135 mt-2">
+    <div className="h-auto w-full bg-gray-900 p-5 rounded-lg md:w-85 lg:w-125 mt-2">
       <div className="h-fit w-full  overflow-hidden  rounded-md">
         <img
           src={props.image}

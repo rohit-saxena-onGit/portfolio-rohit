@@ -52,7 +52,7 @@ export const Home = () => {
           What I've worked on
         </h1>
       </div>
-      <div className="flex flex-wrap justify-between ">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         <ProjectCards
           image={Project1}
           title="Landing Page"
@@ -78,7 +78,7 @@ export const Home = () => {
         <h1 className="font-semibold text-violet-400">Writing</h1>
         <h1 className="text-2xl mt-2 font-sans font-bold">Latest posts</h1>
       </div>
-      <div className="flex flex-wrap justify-between ">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         <BlogCards
           image={linerbinary}
           title="Linear and Binary Search "

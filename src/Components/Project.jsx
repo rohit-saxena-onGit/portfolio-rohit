@@ -36,7 +36,7 @@ export const Project = () => {
         <h1 className='font-bold text-3xl tracking-wider'>Projects</h1>
         <p className='mt-4 text-gray-400 tracking-wider'>Collection of my projects that I build so far.</p>
       </div>
-      <div className='flex flex-wrap justify-between'>
+      <div className='mt-10 grid grid-cols-1 md:grid-cols-2 gap-6'>
         {projectData.map((project, index) => (
           <ProjectCards
             key={index}
