@@ -3,7 +3,7 @@ import React from 'react'
 export const BlogCards = (props) => {
   return (
     <div>
-        <div className="h-auto w-full bg-gray-900 p-5 rounded-lg md:w-90 lg:w-140 mt-2">
+        <div className="h-auto w-full bg-gray-900 p-5 rounded-lg md:w-90 lg:w-135 mt-2">
       <div className="h-fit w-full  overflow-hidden  rounded-md">
         <img
           src={props.image}
