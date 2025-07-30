@@ -4,6 +4,7 @@ import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import calc from "../assets/calc.png";
 import { Link } from "react-router-dom";
+import Portfolio from "../assets/Portfolio.png";
 
 const projectData = [
   {
@@ -26,6 +27,13 @@ const projectData = [
     des: "A sleek and responsive calculator app built using HTML, CSS, and JavaScript, designed for quick and accurate basic arithmetic operations.",
     live: "https://rohit-saxena-ongit.github.io/calculator/",
     github: "https://github.com/rohit-saxena-onGit/calculator"
+  }
+  {
+    image: Portfolio,
+    title: "My Portfolio",
+    des: "An interactive portfolio crafted using React, designed to dynamically present my development work and technical abilities.",
+    live: "https://portfolio-rohit-sand.vercel.app/",
+    github: "https://github.com/rohit-saxena-onGit/portfolio-rohit"
   }
 ];
 
