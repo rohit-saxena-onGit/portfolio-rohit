@@ -27,7 +27,7 @@ const projectData = [
     des: "A sleek and responsive calculator app built using HTML, CSS, and JavaScript, designed for quick and accurate basic arithmetic operations.",
     live: "https://rohit-saxena-ongit.github.io/calculator/",
     github: "https://github.com/rohit-saxena-onGit/calculator"
-  }
+  },
   {
     image: Portfolio,
     title: "My Portfolio",
