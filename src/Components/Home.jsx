@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectCards } from "./ProjectCards";
-import Project1 from "../assets/Project1.png";
+import Notekeeper from "../assets/Notekeeper.png";
 import Project2 from "../assets/Project2.png";
 import { BlogCards } from "./BlogCards";
 import linerbinary from "../assets/linerbinary.png";
@@ -54,11 +54,11 @@ export const Home = () => {
       </div>
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         <ProjectCards
-          image={Project1}
-          title="Landing Page"
-          des="I created a static landing page using HTML and CSS with a clean layout and structured design."
-          live="https://rohit-saxena-ongit.github.io/Ficaco/"
-          github="https://github.com/rohit-saxena-onGit/Ficaco/tree/main"
+          image={Notekeeper}
+          title="Keep Notes"
+          des="This dynamic note keeper, built with React, Redux, and JavaScript, offers a seamless and responsive experience for capturing and organizing all your thoughts and ideas."
+          live="https://note-keeper-lovat.vercel.app/"
+          github="https://github.com/rohit-saxena-onGit/NoteKeeper"
         />
         <ProjectCards
           image={Project2}
