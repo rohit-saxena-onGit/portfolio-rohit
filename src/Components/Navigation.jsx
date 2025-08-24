@@ -3,7 +3,7 @@ import Rlogo from "../assets/Rlogo.png";
 function Navigation({setShowmodel}) {
   return (
     <>
-      <div className="fixed top-0 left-0 w-full h-16 bg-black z-50 shadow-md text-white py-3 lg:px-60 md:px-30 px-7 flex items-center justify-between ">
+      <div className="fixed top-0 left-0 w-full h-16 bg-black/30 backdrop-blur-md z-50 shadow-md text-white py-3 lg:px-60 md:px-30 px-7 flex items-center justify-between">
 
 
         <div className="bg-white rounded-full flex items-center justify-center ">
