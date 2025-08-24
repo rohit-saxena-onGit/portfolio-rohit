@@ -5,7 +5,7 @@ import Project2 from "../assets/Project2.png";
 import Calculator from "../assets/Calculator.png";
 import { Link } from "react-router-dom";
 import Portfolio from "../assets/Portfolio.png";
-import Notekeeper from "../assets/Portfolio.png";
+import Notekeeper from "../assets/Notekeeper.png";
 const projectData = [
   {
     image: Project1,
