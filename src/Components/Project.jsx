@@ -5,7 +5,7 @@ import Project2 from "../assets/Project2.png";
 import Calculator from "../assets/Calculator.png";
 import { Link } from "react-router-dom";
 import Portfolio from "../assets/Portfolio.png";
-
+import Notekeeper from "../assets/Portfolio.png";
 const projectData = [
   {
     image: Project1,
@@ -34,6 +34,13 @@ const projectData = [
     des: "An interactive portfolio crafted using React, designed to dynamically present my development work and technical abilities.",
     live: "https://portfolio-rohit-sand.vercel.app/",
     github: "https://github.com/rohit-saxena-onGit/portfolio-rohit"
+  },
+  {
+    image: Notekeeper ,
+    title: "Keep Notes",
+    des: "This dynamic note keeper, built with React, Redux, and JavaScript, offers a seamless and responsive experience for capturing and organizing all your thoughts and ideas.",
+    live: "https://note-keeper-lovat.vercel.app/",
+    github: "https://github.com/rohit-saxena-onGit/NoteKeeper"
   }
 ];
 
