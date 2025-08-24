@@ -3,6 +3,7 @@ import { Allroutes } from "./Allroutes";
 import Navigation from "./Components/Navigation";
 import Popup from "./Components/Popup";
 import DotGrid from "./Animations/DotGrid";
+import DarkVeil from "./Animations/DarkVeil";
 
 function App() {
   let [showModel, setShowmodel] = useState(false);
@@ -11,7 +12,10 @@ function App() {
     <>
       <div className="lg:px-60 md:px-30 px-7 bg-[#0A0A0A] text-white relative overflow-hidden">
         {/* DotGrid background */}
-        <div className="absolute inset-0 z-0">
+        <div className="fixed inset-0 z-0">
+          <div className="fixed inset-0 z-0">
+            <DarkVeil />
+          </div>
           <DotGrid
             dotSize={5}
             gap={20}

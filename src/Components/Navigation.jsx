@@ -3,7 +3,7 @@ import Rlogo from "../assets/Rlogo.png";
 function Navigation({setShowmodel}) {
   return (
     <>
-      <div className="fixed top-0 left-0 w-full h-16 bg-black/30 backdrop-blur-md z-50 shadow-md text-white py-3 lg:px-60 md:px-30 px-7 flex items-center justify-between">
+      <div className="fixed top-0 left-0 w-full h-16  z-50 shadow-md text-white py-3 lg:px-60 md:px-30 px-7 flex items-center justify-between">
 
 
         <div className="bg-white rounded-full flex items-center justify-center ">
@@ -11,7 +11,7 @@ function Navigation({setShowmodel}) {
         </div>
 
 
-        <div className=" hidden lg:flex   h-full w-1/3  items-center justify-evenly  ">
+        <div className=" hidden lg:flex bg-white/10 backdrop-blur-md py-8 overflow-hidden rounded-full h-full w-1/3  items-center justify-evenly  ">
             <Link to={"/"} className=" hover:text-gray-300">Home</Link>
             <Link to={"/about"} className=" hover:text-gray-300">About</Link>
             <Link to={"/project"} className=" hover:text-gray-300">Projects</Link>
