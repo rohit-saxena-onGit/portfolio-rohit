@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectCards } from "./ProjectCards";
 import Notekeeper from "../assets/Notekeeper.png";
-import Request from "../assets/Request.png";
+import Project2 from "../assets/Project2.png";
 import { BlogCards } from "./BlogCards";
 import linerbinary from "../assets/linerbinary.png";
 import ReactHooks from "../assets/ReactHooks.png";
@@ -61,8 +61,8 @@ export const Home = () => {
           github="https://github.com/rohit-saxena-onGit/NoteKeeper"
         />
         <ProjectCards
-          image={Request}
-          title="API Tester"
+          image={Project2}
+          title="Weather App"
           des="A lightweight, no-frills tool for quickly sending requests and inspecting responses from your API endpoints."
           live="https://api-tester-green-three.vercel.app/"
           github="https://github.com/rohit-saxena-onGit/api-tester"
