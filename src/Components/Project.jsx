@@ -6,6 +6,7 @@ import Calculator from "../assets/Calculator.png";
 import { Link } from "react-router-dom";
 import Portfolio from "../assets/Portfolio.png";
 import Notekeeper from "../assets/Notekeeper.png";
+import API from "../assets/API.png";
 const projectData = [
   {
     image: Project1,
@@ -41,6 +42,13 @@ const projectData = [
     des: "This dynamic note keeper, built with React, Redux, and JavaScript, offers a seamless and responsive experience for capturing and organizing all your thoughts and ideas.",
     live: "https://note-keeper-lovat.vercel.app/",
     github: "https://github.com/rohit-saxena-onGit/NoteKeeper"
+  }
+   {
+    image: API ,
+    title: "API Tester",
+    des: "A lightweight, no-frills tool for quickly sending requests and inspecting responses from your API endpoints.",
+    live: "https://api-tester-green-three.vercel.app/",
+    github: "https://github.com/rohit-saxena-onGit/api-tester"
   }
 ];
 
