@@ -64,8 +64,8 @@ export const Home = () => {
           image={Project2}
           title="Weather App"
           des="A lightweight, no-frills tool for quickly sending requests and inspecting responses from your API endpoints."
-          live="https://api-tester-green-three.vercel.app/"
-          github="https://github.com/rohit-saxena-onGit/api-tester"
+          live=""
+          github=""
         />
       </div>
 
