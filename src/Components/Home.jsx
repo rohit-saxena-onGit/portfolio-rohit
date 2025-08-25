@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ProjectCards } from "./ProjectCards";
 import Notekeeper from "../assets/Notekeeper.png";
-import Project2 from "../assets/Project2.png";
+import API from "../assets/API.png";
 import { BlogCards } from "./BlogCards";
 import linerbinary from "../assets/linerbinary.png";
 import ReactHooks from "../assets/ReactHooks.png";
@@ -61,11 +61,11 @@ export const Home = () => {
           github="https://github.com/rohit-saxena-onGit/NoteKeeper"
         />
         <ProjectCards
-          image={Project2}
-          title="Weather App"
-          des="I built a simple weather app using HTML, CSS, and JavaScript that fetches and displays real-time weather data from an API."
-          live="https://github.com/rohit-saxena-onGit/weather"
-          github="https://github.com/rohit-saxena-onGit/weather"
+          image={API}
+          title="API Tester"
+          des="A lightweight, no-frills tool for quickly sending requests and inspecting responses from your API endpoints."
+          live="https://api-tester-green-three.vercel.app/"
+          github="https://github.com/rohit-saxena-onGit/api-tester"
         />
       </div>
 
