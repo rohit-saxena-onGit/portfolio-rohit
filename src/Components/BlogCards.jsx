@@ -15,7 +15,7 @@ export const BlogCards = (props) => {
       <h1 className="text-2xl font-semibold mt-1">{props.title}</h1>
       <p className="text-gray-300 ">{props.des}</p>
       <div className="flex gap-5 mt-3 ">
-        <a href={props.live} className="border px-4 py-1 rounded-md hover:bg-gray-900">
+        <a href={props.live} target="_blank" className="border px-4 py-1 rounded-md hover:bg-gray-900">
          Dive In...
         </a>
 
