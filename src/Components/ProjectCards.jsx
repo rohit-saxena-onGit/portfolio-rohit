@@ -14,10 +14,10 @@ export const ProjectCards = (props) => {
       <h1 className="text-2xl font-semibold mt-1">{props.title}</h1>
       <p className="text-gray-300 ">{props.des}</p>
       <div className="flex gap-5 mt-3 ">
-        <a href={props.live} className="border px-4 py-1 rounded-md hover:bg-gray-800">
+        <a href={props.live} target="_blank" className="border px-4 py-1 rounded-md hover:bg-gray-800">
           Preview
         </a>
-        <a href={props.github} className="border px-4 py-1 rounded-md hover:bg-gray-800">
+        <a href={props.github} target="_blank" className="border px-4 py-1 rounded-md hover:bg-gray-800">
           Github
         </a>
       </div>
