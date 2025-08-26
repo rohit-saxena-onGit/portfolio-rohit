@@ -42,7 +42,7 @@ const projectData = [
     des: "This dynamic note keeper, built with React, Redux, and JavaScript, offers a seamless and responsive experience for capturing and organizing all your thoughts and ideas.",
     live: "https://note-keeper-lovat.vercel.app/",
     github: "https://github.com/rohit-saxena-onGit/NoteKeeper"
-  }
+  },
    {
     image: API ,
     title: "API Tester",
